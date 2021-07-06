@@ -1,3 +1,157 @@
 *{
-    background: red;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* NAVBAR CSS */
+
+.navbar{
+    padding: 15px 30px;
+}
+
+.navbar-brand{
+    padding: 10px;
+}
+
+.navbar-nav{
+    margin: 9px 0px 0px;
+    padding: 10px;
+}
+
+ .nav-link{
+    color: rgba(0,0,0,.4);
+  padding: 0px 21px !important;  
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.button-container button{
+    background: white;
+    padding: 11px 32px 0px 0px;
+    border:none;
+}
+
+
+
+.bi-search{
+    font-size: 20px;
+    padding: 5px 32px 0px 0px;
+}
+
+.navbar-icon{
+    position: relative;
+    list-style: none;
+    padding: 0px 10px 0px 0px;
+}
+
+.navbar-icon i{
+    font-size: 25px;
+    max-height: 24px;
+    position: relative;
+    background: transparent;
+}
+
+.navbar-icon span{
+    position: absolute;
+    top: 3px;
+    right: 8px;
+    height: auto;
+    border-radius: 3px;
+    padding: 3px 5px;
+    background: #f42c37;
+    font-size: 10px;
+    color: #fff;
+    font-family: "Arial",sans-serif;
+}
+
+.navbar-collapse{
+    position: relative;
+}
+
+.mfp-bg{
+    background: #fff;
+    opacity: 0.9;
+}
+
+.mfp-fade.mfp-bg {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  
+  
+  /* overlay animate in */
+  
+  .mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+  }
+  
+  
+  /* overlay animate out */
+  
+  .mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+  }
+  
+  .mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+    transition: all 0.4s ease-out;
+  }
+  
+  .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+  }
+  
+  .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+  }
+
+  .dropdown a{
+      list-style: none;
+      color: black;
+  }
+
+  .dropdown-input{
+      padding: 13px 10px;
+      border: none;
+      position: relative;
+      border-radius: 50px;
+      box-shadow: 0 3px 40px #0000001a;
+      width: 300px;
+      overflow-y: scroll;
+      animation: nav 0.1s;
+  }
+  
+  @keyframes nav {
+      from{
+          top: 40px;
+          opacity: 0;
+      }
+      to{
+          top: 0px;
+          opacity: 1;
+      }
+  }
+
+  .dropdown:hover .dropdown-menu {
+  display: block;
+  right: 0px;
+  background: transparent;
+
+}
+
+.dropdown-menu{
+    border: none;
+    background: #fff;
+}
+
+.dropdown-menu:hover{
+    border: none;
+    background: #fff;
+    padding: none;
+  
 }
