@@ -17,26 +17,14 @@
 </head>
 <body>
     <!-- HEADER SECTION -->
-<nav class="flex-container navbar navbar-expand-lg navbar-light bg-white">
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
     <a class="navbar-brand flex-item" href="#">
         <img width="104"
              height="18"
              src="https://demo.phlox.pro/shop-digital/wp-content/uploads/sites/127/2019/09/logotype.png"
         >
     </a>
-    <button
-    class="navbar-toggler flex-item open-popup-link"
-    href="#navbar-popup"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-  <i class="bi bi-text-right"></i>
-  </button>
-    <div class="navbar-collapse collapse flex-item" id="navbarSupportedContent">
+    <div class="navbar-collapse collapse" id="navbarSupportedContent">
         <!-- UL STARTS -->
       <ul id="navbar-popup" class="navbar-nav mfp-fade mb-2 mb-lg-0">
         <li class="nav-item">
@@ -59,14 +47,27 @@
       </ul>
     </div>
       <!-- UL ENDS -->
-    <div class="d-flex flex-item" >
+      <div class="swiper align-end">
+      <button
+    class="navbar-toggler flex-item open-popup-link ms-auto"
+    href="#navbar-popup"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+  <i class="bi bi-text-right"></i>
+  </button>
+    <div class="d-flex navbar-end ms-auto">
         <div class="button-container">
           <button>login</button>  
         </div>
         <i class="bi bi-search"></i>
         <ul class="navbar-icon">
           <li class="nav-item dropdown-1 dropdown">
-            <a class="onHover dropdown-toggle"
+            <a class="onHover"
             href="#"
             id="navbarDropdown"
             role="button"
@@ -82,6 +83,7 @@
               </a>
             </ul>
           </li>
+        </div>
         </div>
       </div>
 </nav>

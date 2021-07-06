@@ -57,7 +57,7 @@
 .navbar-icon span{
     position: absolute;
     top: 3px;
-    right: 8px;
+    right: 0px;
     height: auto;
     border-radius: 3px;
     padding: 3px 5px;
@@ -123,7 +123,7 @@
       box-shadow: 0 3px 40px #0000001a;
       width: 300px;
       overflow-y: scroll;
-      animation: nav 0.1s;
+      animation: nav 0.1s  backwards;
   }
   
   @keyframes nav {
@@ -155,3 +155,4 @@
     padding: none;
   
 }
+
