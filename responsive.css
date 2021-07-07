@@ -1,3 +1,33 @@
+@media screen and   (max-width:1025px) {
+    .hero{
+        padding: 80px 50px !important;
+    }
+    
+    
+    .hero-content h2{
+        font-size: 20px ;
+    }
+
+    .hero-content h3{
+        font-size: 48px ;
+        line-height: 39px ;
+        margin: 0px 0px 10px ;
+    }
+    
+    .hero-text{
+        font-size: 12.3vw ;
+
+    }
+
+    .hero-right-content{
+        right: 50px;
+        bottom: 50px;
+    }
+
+    .hero-right-content{
+        max-width: 222px;
+    }
+}
 @media  screen and (max-width:769px) {
     .open-popup-link,
     .open-popup-link:focus{
@@ -39,12 +69,49 @@ button:focus:not(:focus-visible){
 .open-popup-link i{
     display: none;
 }
+
 .swiper{
     width: 80%;
     display: flex;
 }
 
 
+
+.hero{
+    overflow: hidden;
+    padding: 80px 50px !important;
+}
+
+
+.hero-content h2{
+    font-size: 20px ;
+}
+
+.hero-img{
+    width: 100%;
+    height: auto;
+}
+
+.hero-content h3{
+    font-size: 48px ;
+    line-height: 39px ;
+    margin: 0px 0px 10px ;
+}
+
+.hero-text{
+    font-size: 12.3vw ;
+    line-height: 100px;
+}
+
+.hero-right-content{
+    right: 50px;
+    bottom: 50px;
+    max-width: 222px;
+}
+
+.side-button:nth-child(3){
+    display: none;
+}
 }
 @media  screen and (max-width:456px){
     nav{
@@ -84,5 +151,50 @@ button:focus:not(:focus-visible){
         width: auto;
         display: flex;
     }
+
+    .hero{
+        width: 95%;
+        height: auto;
+        padding: 14% 5% !important;
+    }
+
+    .hero-content h2{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .hero-content h3{
+        font-size: 31px;
+    }
+
+    .hero-content a{
+        padding: 10px 20px;
+    }
+
+    .hero-img{
+        height: auto;
+        width: 100%;
+        left: 50px;
+    }
+
+    .hero-content a:hover::before{
+        padding: 10px 20px;
+    }
+
+    .hero-text{
+        font-size: 12.3vw ;
+        line-height: 40px;
+    }
+
+    .hero-right-content{
+        display: none;
+    }
     
+    .side-buttons{
+        transform: translate(37px,-50%);
+    }
+
+    .side-button:nth-child(1){
+        display: none;
+    }
 }

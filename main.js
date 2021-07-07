@@ -20,3 +20,9 @@ $(".open-popup-link").magnificPopup({
       $(".open-poppup-link").removeClass("mfp-hide");
     }
   });
+
+  AOS.init({
+    once: true,
+    anchorPlacement: 'top-bottom',
+    duration: 800, 
+  });
