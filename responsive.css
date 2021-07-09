@@ -1,8 +1,15 @@
 @media screen and   (max-width:1025px) {
     .hero{
+        overflow: hidden;
+        height: auto;
         padding: 80px 50px !important;
     }
     
+    .hero-img{
+        height: auto;
+        width: 100%;
+        background-position: top;
+    }
     
     .hero-content h2{
         font-size: 20px ;
@@ -11,21 +18,58 @@
     .hero-content h3{
         font-size: 48px ;
         line-height: 39px ;
-        margin: 0px 0px 10px ;
+        margin: 0px 0px 40px ;
     }
     
     .hero-text{
         font-size: 12.3vw ;
-
+        line-height: 100px;
     }
 
     .hero-right-content{
-        right: 50px;
         bottom: 50px;
+        right: 0px;
+        margin-bottom: -120px;
+        max-width: 222px;
     }
 
-    .hero-right-content{
-        max-width: 222px;
+    .hero-right-content p{
+        line-height: 1.4;
+    }
+
+    .shop-content,
+    .shop-content-2{
+        max-width: 100%;
+    }
+
+    .shop-2{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .shop-text2 p{
+        font-size: 50px;
+    }
+
+    .shop-content-5,
+    .shop-content-6 {
+        height: 317px;
+        width: 100%;
+    }
+
+    .shop-content-6 img{
+        max-height: 213px;
+        left: 60%;
+        width: 100%;
+    }
+    .shop-content-5 img{
+        max-height: 311px;        
+        width: 100%;
+    }
+
+    .shop-text-4,
+    .shop-text2{
+        padding: 8% 15% 28% 10%;
     }
 }
 @media  screen and (max-width:769px) {
@@ -104,16 +148,47 @@ button:focus:not(:focus-visible){
 }
 
 .hero-right-content{
-    right: 50px;
-    bottom: 50px;
-    max-width: 222px;
+    bottom: 70px;
+        right: 0px;
+        max-width: 222px;
+        position: relative;
+}
+
+.hero-right-content p{
+    line-height: 25px;
 }
 
 .side-button:nth-child(3){
     display: none;
 }
+
+.shop-2{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.shop-content-4{
+    width: 95%;
+    margin: 24px auto;
+}
+
+.shop-content-4 img{
+    height: 114px;
+    width: 112px;
+}
+
+.shop-text-4 P{
+    font-size: 47px;
+}
+
+.shop-text-4{
+    padding: 11% 7% 0% 14%;
+}
 }
 @media  screen and (max-width:456px){
+    .container{
+        overflow: hidden;
+    }
     nav{
         padding: 15px 10px !important;
     }
@@ -167,6 +242,10 @@ button:focus:not(:focus-visible){
         font-size: 31px;
     }
 
+    .hero-text{
+        line-height: 70px;
+    }
+
     .hero-content a{
         padding: 10px 20px;
     }
@@ -196,5 +275,31 @@ button:focus:not(:focus-visible){
 
     .side-button:nth-child(1){
         display: none;
+    }
+
+    .shop-container{
+        width: 95%;
+        padding: 0px 10px !important;
+        margin: 25px auto;
+    }
+
+    .shop-content img,
+    .shop-content-2 img,
+    .shop-content-3 img{
+        height: 60%;
+    }
+
+    .shop-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media  screen and (max-width:321px){
+    .shop-content-2 img{
+        transform: translate(-35%,-40%);
+    }
+    .shop-content-3 img{
+        transform: translate(-43%,-30%);
     }
 }
