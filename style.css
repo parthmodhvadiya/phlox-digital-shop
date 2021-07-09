@@ -766,7 +766,42 @@ color: #f42c37;
     transform: translateX(-45%);
   }
 
-  .shop-2{
-      display: flex;
-      flex-wrap: wrap-reverse;
-    }
+/* ABOUT SECTION STARTS */
+.about{
+    padding: 60px 0px 0px;
+}
+
+.about-container{
+    padding:10px !important;
+}
+
+.about-content{
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+.about-content img{
+    margin-left: auto;
+    padding: 5% 6% 5% 5%;
+}
+
+.about-text{
+    margin: 0px auto 0px 0px;
+}
+
+.about-text h4{
+    font-family: "poppins",Sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0px;
+    line-height: 25px;
+}
+
+.about-text h5{
+    color: #aaa;
+    font-family: "montserrat",Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}

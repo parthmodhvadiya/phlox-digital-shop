@@ -71,7 +71,23 @@
     .shop-text2{
         padding: 8% 15% 28% 10%;
     }
+
+    .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content img{
+        margin: 0px auto;
+    }
+
+    .about-text{
+        text-align: center;
+        margin: 0px auto;
+    } 
+   
 }
+
 @media  screen and (max-width:769px) {
     .open-popup-link,
     .open-popup-link:focus{
@@ -289,10 +305,20 @@ button:focus:not(:focus-visible){
         height: 60%;
     }
 
-    .shop-2{
-        display: flex;
-        flex-wrap: wrap;
+    .about-content{
+    margin-right: 0px;
     }
+
+    .about-text{
+        text-align: start;
+    }
+
+    .about-text h4{
+        line-height: 30px;
+    }
+    .abour-text h5{
+        line-height: 50px;
+    } 
 }
 
 @media  screen and (max-width:321px){
